@@ -1,5 +1,5 @@
 
-a
+a[href^="/df"]
   font-family: 'Courier New', 'Quicktype Mono', 'Bitstream Vera Sans Mono', 'Lucida Console', 'Lucida Sans Typewriter', monospace
   text-align: center
   font-size: 16px
@@ -13,42 +13,42 @@ a
   cursor: text
 
   //00 
-  &[href="/dfspace"]:after 
+  &[href$="space"]:after 
     content: " "
     /* Used for background tiles in the intro CMV, rarely used elsewhere 
   //01
-  &[href="/dfdwarf"]:after 
+  &[href$="dwarf"]:after 
     content: "☺"
     /* Civilian dwarves# used for dead dwarves 
-  &[href="/dfmilitary"]:after 
+  &[href$="military"]:after 
     content: "☻"
     /* Military dwarves# used for dead dwarves 
   //03
-  &[href="/dfdimplecup"]:after 
+  &[href$="dimplecup"]:after 
     content: "♥"
     /* Dimple cups 
   //04
-  &[href="/dfcutgem"]:after 
+  &[href$="cutgem"]:after 
     content: "♦"
     /* Cut gems, large gems 
   //05
-  &[href="/dftree"]:after 
+  &[href$="tree"]:after 
     content: "♣"
     /* Fungiwood trees, Spore trees, Acacia trees, Mangrove trees, Maple trees, quarry bushes, Alder trees, Birch trees 
   //06
-  &[href="/dfplumphelmet"]:after 
+  &[href$="plumphelmet"]:after 
     content: "♠"
     /* Plump helmets, Tower-caps, Black-caps, Goblin-caps, Nether-caps, Oak trees, quarry bush leaves, Mahogany trees, Chestnut trees, Ash trees 
   //07
-  &[href="/dfstone"]:after 
+  &[href$="stone"]:after 
     content: "•"
     /* Stone, solid workshop tile for several workshops like the magma smelter, lakes in main map, caves in the main map, moon on travel map 
   //08
-  &[href="/dfworkshop"]:after 
+  &[href$="workshop"]:after 
     content: "◘"
     /* Solid workshop tile for several other workshops like the magma forge, tanner workshop, catapult cup, fortress keeps on travel map 
   //09
-  &[href="/dfwell"]:after 
+  &[href$="well"]:after 
     content: "○"
     /* Well, bracelet, Map tile|ant colony, millstone, quern, vertical axle, fortress walls on travel map, sun behind clouds on travel map, fortresses on world map 
   //10
@@ -56,71 +56,71 @@ a
     content: "◙"
     /*  
   //11
-  &[href="/dfmale"]:after 
+  &[href$="male"]:after 
     content: "♂"
     /* Male sign, bags 
   //12
-  &[href="/dffemale"]:after 
+  &[href$="female"]:after 
     content: "♀"
     /* Female sign, amulet 
   //13
-  &[href="/dfladle"]:after 
+  &[href$="ladle"]:after 
     content: "♪"
     /* Ladles 
   //14
-  &[href="/dfarmorstand"]:after 
+  &[href$="armorstand"]:after 
     content: "♫"
     /* Armor stands 
   //15
-  &[href="/dfgem"]:after 
+  &[href$="gem"]:after 
     content: "☼"
     /* Unmined Gem Cluster, Rough Gems and Raw Glass, unmined bituminous coal, mined bituminous coal, currency symbol, masterpiece quality symbol, spider webs, turtle, sun, gear assemblies, fireballs, bandit camps on travel map 
   //16
-  &[href="/dfballistaeast"]:after 
+  &[href$="ballistaeast"]:after 
     content: "►"
     /* Head of Ballista arrow facing east, vermin|manta ray 
   //17
-  &[href="/dfballistawest"]:after 
+  &[href$="ballistawest"]:after 
     content: "◄"
     /* Head of Ballista arrow facing west 
   //18
-  &[href="/dfnorthsouth"]:after 
+  &[href$="northsouth"]:after 
     content: "↕"
     /*  
   //19
-  &[href="/dfcage"]:after 
+  &[href$="cage"]:after 
     content: "‼"
     /* Cages, on-fire symbol, vertical bars 
   //20
-  &[href="/dfmugs"]:after 
+  &[href$="mugs"]:after 
     content: "¶"
     /* Mugs, largest elven cities, cumulonimbus clouds on travel map, Highwood trees 
   //21
-  &[href="/dfrestraints"]:after 
+  &[href$="restraints"]:after 
     content: "§"
     /* Restraints, whip vine, Rope 
   //22
-  &[href="/dflogs"]:after 
+  &[href$="logs"]:after 
     content: "▬"
     /* Logs 
   //23
-  &[href="/dfcedar"]:after 
+  &[href$="cedar"]:after 
     content: "↨"
     /* Cedar trees 
   //24
-  &[href="/dfnorth"]:after 
+  &[href$="north"]:after 
     content: "↑"
     /* Interface text (bridge direction), Pine trees, Larch trees 
   //25
-  &[href="/dfsouth"]:after 
+  &[href$="south"]:after 
     content: "↓"
     /* Hungry/thirsty/drowsy/unhappy indicator, bridge placement raising direction indicator 
   //26
-  &[href="/dfeast"]:after 
+  &[href$="east"]:after 
     content: "→"
     /* Interface text (bridge direction) 
   //27
-  &[href="/dfwest"]:after 
+  &[href$="west"]:after 
     content: "←"
     /* Interface text (bridge direction) 
   //28
@@ -128,17 +128,17 @@ a
     content: "∟"
     /*  
   //29
-  &[href="/dfeastwest"]:after 
+  &[href$="eastwest"]:after 
     content: "↔"
     /*  
   //30 
-  &[href="/dfballistanorth"]:after,
-  &[href="/dframpup"]:after 
+  &[href$="ballistanorth"]:after,
+  &[href$="rampup"]:after 
     content: "▲"
     /* Head of Ballista arrow facing north, ramp up 
   //31 
-  &[href="/dfballistasouth"]:after,
-  &[href="/dframpdown"]:after 
+  &[href$="ballistasouth"]:after,
+  &[href$="rampdown"]:after 
     content: "▼"
     /* Head of Ballista arrow facing south, ramp down 
   //32
@@ -154,25 +154,25 @@ a
     content: "\""
     /* Shrub, quotation marks, workshop tiles, kobold's glowing eyes 
   //35
-  &[href="/dfgrate"]:after 
+  &[href$="grate"]:after 
     content: "#"
     /* floor grates, labyrinths on travel map 
     /* Sandstone, Rock salt, Basalt, Gypsum 
   //36
-  &[href="/dfcoins"]:after 
+  &[href$="coins"]:after 
     content: "$"
     /* Coins 
   //37
-  &[href="/dfmeal"]:after 
+  &[href$="meal"]:after 
     content: "%"
     /* Prepared meal, unexplored underground, screw pump in action 
     /* Siltstone, Slate, Brimstone, Kimberlite *, Bismuthinite, Realgar, Stibnite, Marcasite, Olivine, Orthoclase, Microcline, Petrified wood, Brimstone, Pyrolusite 
   //38
-  &[href="/dfdemon"]:after 
+  &[href$="demon"]:after 
     content: "&"
     /* Demons# 
   //39
-  &[href="/dfroughfloor"]:after 
+  &[href$="roughfloor"]:after 
     content: "'"
     /*  Rough floors, unexplored underground, Claystone, Rhyolite, Periclase 
   //40
@@ -184,15 +184,15 @@ a
     content: ")"
     /* Foreign object closing tag, waning moon on travel map, text 
   //42
-  &[href="/dfore"]:after 
+  &[href$="ore"]:after 
     content: "*"
     /* Ore, glowing pits, superior quality tags, key reference, working gear assembly, gem floodgate 
   //43
-  &[href="/dfsmoothfloor"]:after 
+  &[href$="smoothfloor"]:after 
     content: "+"
     /* Smooth/constructed floors, injured status, finely-crafted quality tags, text, block/metal|bar bridge or road, towns on world map 
   //44
-  &[href="/dfroughfloor2"]:after 
+  &[href$="roughfloor2"]:after 
     content: ","
     /* Rough floors, Claystone, unexplored underground, text 
   //45
@@ -200,7 +200,7 @@ a
     content: "-"
     /* Scepters, arrows in flight, well-crafted quality tags, keyboard reference, Part of animation when two creatures or dwarves are on the same spot 
   //46
-  &[href="/dfroughfloors3"]:after 
+  &[href$="roughfloors3"]:after 
     content: "."
     /* Rough floors, Felsite, text, unexplored underground 
   //47
@@ -208,47 +208,47 @@ a
     content: "/"
     /* Weapons, bolts, Ballista tile, text 
   //48
-  &[href="/dflow0"]:after 
+  &[href$="low0"]:after 
     content: "0"
     /* Coffins, text 
   //49
-  &[href="/dflow1"]:after 
+  &[href$="low1"]:after 
     content: "1"
     /* Text, fluids if Technical_tricks#Tiles|SHOW_FLOW_AMOUNTS is YES in d_init.txt  
   //50
-  &[href="/dflow2"]:after 
+  &[href$="low2"]:after 
     content: "2"
     /* Text, fluids if SHOW_FLOW_AMOUNTS is YES in d_init.txt 
   //51
-  &[href="/dflow3"]:after 
+  &[href$="low3"]:after 
     content: "3"
     /* Text, fluids if SHOW_FLOW_AMOUNTS is YES in d_init.txt  
   //52
-  &[href="/dflow4"]:after 
+  &[href$="low4"]:after 
     content: "4"
     /* Text, fluids if SHOW_FLOW_AMOUNTS is YES in d_init.txt 
   //53
-  &[href="/dflow5"]:after 
+  &[href$="low5"]:after 
     content: "5"
     /* Text, fluids if SHOW_FLOW_AMOUNTS is YES in d_init.txt 
   //54
-  &[href="/dflow6"]:after 
+  &[href$="low6"]:after 
     content: "6"
     /* Text, fluids if SHOW_FLOW_AMOUNTS is YES in d_init.txt 
   //55
-  &[href="/dflow7"]:after 
+  &[href$="low7"]:after 
     content: "7"
     /* Text, fluids if SHOW_FLOW_AMOUNTS is YES in d_init.txt 
   //56
-  &[href="/dfgate"]:after 
+  &[href$="gate"]:after 
     content: "8"
     /* Fortress gates on travel map, text 
   //57
-  &[href="/df9"]:after 
+  &[href$="9"]:after 
     content: "9"
     /* Text  
   //58
-  &[href="/dfberry"]:after 
+  &[href$="berry"]:after 
     content: ":"
     /* wild strawberry, prickle berry, fisher berry, sun berry, snowstorms, underground shrubs 
   //59
@@ -256,7 +256,7 @@ a
     content: ";"
     /* Mason's Workshop, Kitchen 
   //60
-  &[href="/dfstairsup"]:after 
+  &[href$="stairsup"]:after 
     content: "<"
     /* Stairs up, brackets around squad names, "Less than 1 unit weight" on Trading screen. 
   //61
@@ -264,7 +264,7 @@ a
     content: "&#61;"
     /* Empty Stockpiles, hamlets on world map *Chert, Gneiss, Sylvite, Chromite, Kaolinite 
   //62
-  &[href="/dfstairsdown"]:after 
+  &[href$="stairsdown"]:after 
     content: ">"
     /* Stairs down, brackets around squad names. 
   //63
@@ -276,23 +276,23 @@ a
     content: "@"
     /* Sheriff#, berserk dwarf#, adventurer#, fortress guard#, royal guard#, dwarven merchants#, caravan guards#, adventurer's location on world map 
   //65
-  &[href="/dfalligator"]:after 
+  &[href$="alligator"]:after 
     content: "A"
     /* Alligator#, Tile in Farm Workshop, text 
   //66
-  &[href="/dfbear"]:after 
+  &[href$="bear"]:after 
     content: "B"
     /* Bears#, text 
   //67
-  &[href="/dfcow"]:after 
+  &[href$="cow"]:after 
     content: "C"
     /* Cow#, camels#, bronze colossus#, text 
   //68
-  &[href="/dfdragon"]:after 
+  &[href$="dragon"]:after 
     content: "D"
     /* Dragon#, Draltha#, Depot Access Display, text 
   //69
-  &[href="/dfelephant"]:after 
+  &[href$="elephant"]:after 
     content: "E"
     /* elephant#, Elk Bird#, text 
   //70
@@ -304,11 +304,11 @@ a
     content: "G"
     /* Text 
   //72
-  &[href="/dfhorse"]:after 
+  &[href$="horse"]:after 
     content: "H"
     /* Horse#, text 
   //73
-  &[href="/dfsupport"]:after 
+  &[href$="support"]:after 
     content: "I"
     /* Support, text 
   //74
@@ -320,11 +320,11 @@ a
     content: "K"
     /* Text 
   //76
-  &[href="/dfleopard"]:after 
+  &[href$="leopard"]:after 
     content: "L"
     /* Leopard#, text 
   //77
-  &[href="/dfmule"]:after 
+  &[href$="mule"]:after 
     content: "M"
     /* Magma man#, mule#, muskox#, text 
   //78
@@ -344,23 +344,23 @@ a
     content: "Q"
     /* Text 
   //82
-  &[href="/dfgiantrat"]:after 
+  &[href$="giantrat"]:after 
     content: "R"
     /* Giant Rat#, Text 
   //83
-  &[href="/dfspider"]:after 
+  &[href$="spider"]:after 
     content: "S"
     /* Sasquatch#, giant desert scorpion#, Giant Cave Spider#, text 
   //84
-  &[href="/dftitan"]:after 
+  &[href$="titan"]:after 
     content: "T"
     /* Titan#, Text 
   //85
-  &[href="/dfhuman"]:after 
+  &[href$="human"]:after 
     content: "U"
     /* Human#, Unicorn#, text 
   //86
-  &[href="/dfbadlands"]:after 
+  &[href$="badlands"]:after 
     content: "V"
     /* Badlands on map, Text 
   //87
@@ -368,7 +368,7 @@ a
     content: "W"
     /* Depot Access Display, Text 
   //88
-  &[href="/dfbin"]:after 
+  &[href$="bin"]:after 
     content: "X"
     /* Bin, stone floodgate, shop post, building footprint, nausea/winded/stunned/unconscious/migrant indicator, Depot Access Display, text, up/down stairs, Tile in Ashery, keyboard cursor 
   //89
@@ -376,11 +376,11 @@ a
     content: "Y"
     /* Text 
   //90
-  &[href="/dfsleep"]:after 
+  &[href$="sleep"]:after 
     content: "Z"
     /* Sleep indicator, text 
   //91
-  &[href="/dfclothes"]:after 
+  &[href$="clothes"]:after 
     content: "["
     /* Clothing, armor, item stack opening tag, moon on travel map, text 
   //92
@@ -392,11 +392,11 @@ a
     content: "]"
     /* Floor tile in Workshop|workshops and furnace|furnaces, item stack closing tag, tile in various workshops, text 
   //94
-  &[href="/dftrap"]:after 
+  &[href$="trap"]:after 
     content: "^"
     /* Trap, Alabaster, Volcano on world map 
   //95
-  &[href="/dfchannel"]:after 
+  &[href$="channel"]:after 
     content: "_"
     /* Channel designation, text 
   //96
@@ -524,24 +524,24 @@ a
     content: "&#125;"
     /* Forbidden closing tag 
   //126 
-  &[href="/dfmagma"]:after,
-  &[href="/dfriver"]:after,
-  &[href="/dfflow"]:after,
-  &[href="/dfdirtroad"]:after,
-  &[href="/dffarmconstruction"]:after,
-  &[href="/dffurrowed"]:after,
-  &[href="/dfsand"]:after,
-  &[href="/dfbloodsmear"]:after,
-  &[href="/dfguts"]:after, 
+  &[href$="magma"]:after,
+  &[href$="river"]:after,
+  &[href$="flow"]:after,
+  &[href$="dirtroad"]:after,
+  &[href$="farmconstruction"]:after,
+  &[href$="furrowed"]:after,
+  &[href$="sand"]:after,
+  &[href$="bloodsmear"]:after,
+  &[href$="guts"]:after, 
     content: "~"
     /* Unfinished rough stone road, river, magma, flows, dirt road, farm plot under construction, sand, furrowed soils, blood smear, guts 
 
   //127
-  &[href="/dftrap"]:after 
+  &[href$="trap"]:after 
     content: "⌂"
     /* Animal trap, low mountains on world map, part of mechanic's workshop 
   //128
-  &[href="/dfmechanism"]:after 
+  &[href$="mechanism"]:after 
     content: "Ç"
     /* Mechanisms 
   //129

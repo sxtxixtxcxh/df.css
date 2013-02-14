@@ -1,4 +1,4 @@
-a {
+a[href^="/df"] {
   font-family: "Courier New", "Quicktype Mono", "Bitstream Vera Sans Mono", "Lucida Console", "Lucida Sans Typewriter", monospace;
   text-align: center;
   font-size: 16px;
@@ -10,777 +10,777 @@ a {
   display: inline-block;
   text-decoration: none;
   cursor: text; }
-  a[href="/dfspace"]:after {
+  a[href^="/df"][href$="space"]:after {
     content: " ";
     /* Used for background tiles in the intro CMV, rarely used elsewhere */ }
-  a[href="/dfdwarf"]:after {
+  a[href^="/df"][href$="dwarf"]:after {
     content: "☺";
     /* Civilian dwarves# used for dead dwarves */ }
-  a[href="/dfmilitary"]:after {
+  a[href^="/df"][href$="military"]:after {
     content: "☻";
     /* Military dwarves# used for dead dwarves */ }
-  a[href="/dfdimplecup"]:after {
+  a[href^="/df"][href$="dimplecup"]:after {
     content: "♥";
     /* Dimple cups */ }
-  a[href="/dfcutgem"]:after {
+  a[href^="/df"][href$="cutgem"]:after {
     content: "♦";
     /* Cut gems, large gems */ }
-  a[href="/dftree"]:after {
+  a[href^="/df"][href$="tree"]:after {
     content: "♣";
     /* Fungiwood trees, Spore trees, Acacia trees, Mangrove trees, Maple trees, quarry bushes, Alder trees, Birch trees */ }
-  a[href="/dfplumphelmet"]:after {
+  a[href^="/df"][href$="plumphelmet"]:after {
     content: "♠";
     /* Plump helmets, Tower-caps, Black-caps, Goblin-caps, Nether-caps, Oak trees, quarry bush leaves, Mahogany trees, Chestnut trees, Ash trees */ }
-  a[href="/dfstone"]:after {
+  a[href^="/df"][href$="stone"]:after {
     content: "•";
     /* Stone, solid workshop tile for several workshops like the magma smelter, lakes in main map, caves in the main map, moon on travel map */ }
-  a[href="/dfworkshop"]:after {
+  a[href^="/df"][href$="workshop"]:after {
     content: "◘";
     /* Solid workshop tile for several other workshops like the magma forge, tanner workshop, catapult cup, fortress keeps on travel map */ }
-  a[href="/dfwell"]:after {
+  a[href^="/df"][href$="well"]:after {
     content: "○";
     /* Well, bracelet, Map tile|ant colony, millstone, quern, vertical axle, fortress walls on travel map, sun behind clouds on travel map, fortresses on world map */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "◙";
     /* */ }
-  a[href="/dfmale"]:after {
+  a[href^="/df"][href$="male"]:after {
     content: "♂";
     /* Male sign, bags */ }
-  a[href="/dffemale"]:after {
+  a[href^="/df"][href$="female"]:after {
     content: "♀";
     /* Female sign, amulet */ }
-  a[href="/dfladle"]:after {
+  a[href^="/df"][href$="ladle"]:after {
     content: "♪";
     /* Ladles */ }
-  a[href="/dfarmorstand"]:after {
+  a[href^="/df"][href$="armorstand"]:after {
     content: "♫";
     /* Armor stands */ }
-  a[href="/dfgem"]:after {
+  a[href^="/df"][href$="gem"]:after {
     content: "☼";
     /* Unmined Gem Cluster, Rough Gems and Raw Glass, unmined bituminous coal, mined bituminous coal, currency symbol, masterpiece quality symbol, spider webs, turtle, sun, gear assemblies, fireballs, bandit camps on travel map */ }
-  a[href="/dfballistaeast"]:after {
+  a[href^="/df"][href$="ballistaeast"]:after {
     content: "►";
     /* Head of Ballista arrow facing east, vermin|manta ray */ }
-  a[href="/dfballistawest"]:after {
+  a[href^="/df"][href$="ballistawest"]:after {
     content: "◄";
     /* Head of Ballista arrow facing west */ }
-  a[href="/dfnorthsouth"]:after {
+  a[href^="/df"][href$="northsouth"]:after {
     content: "↕";
     /* */ }
-  a[href="/dfcage"]:after {
+  a[href^="/df"][href$="cage"]:after {
     content: "‼";
     /* Cages, on-fire symbol, vertical bars */ }
-  a[href="/dfmugs"]:after {
+  a[href^="/df"][href$="mugs"]:after {
     content: "¶";
     /* Mugs, largest elven cities, cumulonimbus clouds on travel map, Highwood trees */ }
-  a[href="/dfrestraints"]:after {
+  a[href^="/df"][href$="restraints"]:after {
     content: "§";
     /* Restraints, whip vine, Rope */ }
-  a[href="/dflogs"]:after {
+  a[href^="/df"][href$="logs"]:after {
     content: "▬";
     /* Logs */ }
-  a[href="/dfcedar"]:after {
+  a[href^="/df"][href$="cedar"]:after {
     content: "↨";
     /* Cedar trees */ }
-  a[href="/dfnorth"]:after {
+  a[href^="/df"][href$="north"]:after {
     content: "↑";
     /* Interface text (bridge direction), Pine trees, Larch trees */ }
-  a[href="/dfsouth"]:after {
+  a[href^="/df"][href$="south"]:after {
     content: "↓";
     /* Hungry/thirsty/drowsy/unhappy indicator, bridge placement raising direction indicator */ }
-  a[href="/dfeast"]:after {
+  a[href^="/df"][href$="east"]:after {
     content: "→";
     /* Interface text (bridge direction) */ }
-  a[href="/dfwest"]:after {
+  a[href^="/df"][href$="west"]:after {
     content: "←";
     /* Interface text (bridge direction) */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "∟";
     /* */ }
-  a[href="/dfeastwest"]:after {
+  a[href^="/df"][href$="eastwest"]:after {
     content: "↔";
     /* */ }
-  a[href="/dfballistanorth"]:after, a[href="/dframpup"]:after {
+  a[href^="/df"][href$="ballistanorth"]:after, a[href^="/df"][href$="rampup"]:after {
     content: "▲";
     /* Head of Ballista arrow facing north, ramp up */ }
-  a[href="/dfballistasouth"]:after, a[href="/dframpdown"]:after {
+  a[href^="/df"][href$="ballistasouth"]:after, a[href^="/df"][href$="rampdown"]:after {
     content: "▼";
     /* Head of Ballista arrow facing south, ramp down */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: " ";
     /* Spaces in text messages, used for background on the title screen/menu */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "!";
     /* Various status icons, text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: '"';
     /* Shrub, quotation marks, workshop tiles, kobold's glowing eyes */ }
-  a[href="/dfgrate"]:after {
+  a[href^="/df"][href$="grate"]:after {
     content: "#";
     /* floor grates, labyrinths on travel map */
     /* Sandstone, Rock salt, Basalt, Gypsum */ }
-  a[href="/dfcoins"]:after {
+  a[href^="/df"][href$="coins"]:after {
     content: "$";
     /* Coins */ }
-  a[href="/dfmeal"]:after {
+  a[href^="/df"][href$="meal"]:after {
     content: "%";
     /* Prepared meal, unexplored underground, screw pump in action */
     /* Siltstone, Slate, Brimstone, Kimberlite *, Bismuthinite, Realgar, Stibnite, Marcasite, Olivine, Orthoclase, Microcline, Petrified wood, Brimstone, Pyrolusite */ }
-  a[href="/dfdemon"]:after {
+  a[href^="/df"][href$="demon"]:after {
     content: "&";
     /* Demons# */ }
-  a[href="/dfroughfloor"]:after {
+  a[href^="/df"][href$="roughfloor"]:after {
     content: "'";
     /*  Rough floors, unexplored underground, Claystone, Rhyolite, Periclase */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "(";
     /* Foreign object opening tag, tile in bowyer's workshop, waxing moon on travel map, text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: ")";
     /* Foreign object closing tag, waning moon on travel map, text */ }
-  a[href="/dfore"]:after {
+  a[href^="/df"][href$="ore"]:after {
     content: "*";
     /* Ore, glowing pits, superior quality tags, key reference, working gear assembly, gem floodgate */ }
-  a[href="/dfsmoothfloor"]:after {
+  a[href^="/df"][href$="smoothfloor"]:after {
     content: "+";
     /* Smooth/constructed floors, injured status, finely-crafted quality tags, text, block/metal|bar bridge or road, towns on world map */ }
-  a[href="/dfroughfloor2"]:after {
+  a[href^="/df"][href$="roughfloor2"]:after {
     content: ",";
     /* Rough floors, Claystone, unexplored underground, text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "-";
     /* Scepters, arrows in flight, well-crafted quality tags, keyboard reference, Part of animation when two creatures or dwarves are on the same spot */ }
-  a[href="/dfroughfloors3"]:after {
+  a[href^="/df"][href$="roughfloors3"]:after {
     content: ".";
     /* Rough floors, Felsite, text, unexplored underground */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "/";
     /* Weapons, bolts, Ballista tile, text */ }
-  a[href="/dflow0"]:after {
+  a[href^="/df"][href$="low0"]:after {
     content: "0";
     /* Coffins, text */ }
-  a[href="/dflow1"]:after {
+  a[href^="/df"][href$="low1"]:after {
     content: "1";
     /* Text, fluids if Technical_tricks#Tiles|SHOW_FLOW_AMOUNTS is YES in d_init.txt */ }
-  a[href="/dflow2"]:after {
+  a[href^="/df"][href$="low2"]:after {
     content: "2";
     /* Text, fluids if SHOW_FLOW_AMOUNTS is YES in d_init.txt */ }
-  a[href="/dflow3"]:after {
+  a[href^="/df"][href$="low3"]:after {
     content: "3";
     /* Text, fluids if SHOW_FLOW_AMOUNTS is YES in d_init.txt */ }
-  a[href="/dflow4"]:after {
+  a[href^="/df"][href$="low4"]:after {
     content: "4";
     /* Text, fluids if SHOW_FLOW_AMOUNTS is YES in d_init.txt */ }
-  a[href="/dflow5"]:after {
+  a[href^="/df"][href$="low5"]:after {
     content: "5";
     /* Text, fluids if SHOW_FLOW_AMOUNTS is YES in d_init.txt */ }
-  a[href="/dflow6"]:after {
+  a[href^="/df"][href$="low6"]:after {
     content: "6";
     /* Text, fluids if SHOW_FLOW_AMOUNTS is YES in d_init.txt */ }
-  a[href="/dflow7"]:after {
+  a[href^="/df"][href$="low7"]:after {
     content: "7";
     /* Text, fluids if SHOW_FLOW_AMOUNTS is YES in d_init.txt */ }
-  a[href="/dfgate"]:after {
+  a[href^="/df"][href$="gate"]:after {
     content: "8";
     /* Fortress gates on travel map, text */ }
-  a[href="/df9"]:after {
+  a[href^="/df"][href$="9"]:after {
     content: "9";
     /* Text */ }
-  a[href="/dfberry"]:after {
+  a[href^="/df"][href$="berry"]:after {
     content: ":";
     /* wild strawberry, prickle berry, fisher berry, sun berry, snowstorms, underground shrubs */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: ";";
     /* Mason's Workshop, Kitchen */ }
-  a[href="/dfstairsup"]:after {
+  a[href^="/df"][href$="stairsup"]:after {
     content: "<";
     /* Stairs up, brackets around squad names, "Less than 1 unit weight" on Trading screen. */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "&#61;";
     /* Empty Stockpiles, hamlets on world map *Chert, Gneiss, Sylvite, Chromite, Kaolinite */ }
-  a[href="/dfstairsdown"]:after {
+  a[href^="/df"][href$="stairsdown"]:after {
     content: ">";
     /* Stairs down, brackets around squad names. */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "?";
     /* "Task assigned" indicator, looking for path */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "@";
     /* Sheriff#, berserk dwarf#, adventurer#, fortress guard#, royal guard#, dwarven merchants#, caravan guards#, adventurer's location on world map */ }
-  a[href="/dfalligator"]:after {
+  a[href^="/df"][href$="alligator"]:after {
     content: "A";
     /* Alligator#, Tile in Farm Workshop, text */ }
-  a[href="/dfbear"]:after {
+  a[href^="/df"][href$="bear"]:after {
     content: "B";
     /* Bears#, text */ }
-  a[href="/dfcow"]:after {
+  a[href^="/df"][href$="cow"]:after {
     content: "C";
     /* Cow#, camels#, bronze colossus#, text */ }
-  a[href="/dfdragon"]:after {
+  a[href^="/df"][href$="dragon"]:after {
     content: "D";
     /* Dragon#, Draltha#, Depot Access Display, text */ }
-  a[href="/dfelephant"]:after {
+  a[href^="/df"][href$="elephant"]:after {
     content: "E";
     /* elephant#, Elk Bird#, text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "F";
     /* Text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "G";
     /* Text */ }
-  a[href="/dfhorse"]:after {
+  a[href^="/df"][href$="horse"]:after {
     content: "H";
     /* Horse#, text */ }
-  a[href="/dfsupport"]:after {
+  a[href^="/df"][href$="support"]:after {
     content: "I";
     /* Support, text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "J";
     /* Text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "K";
     /* Text */ }
-  a[href="/dfleopard"]:after {
+  a[href^="/df"][href$="leopard"]:after {
     content: "L";
     /* Leopard#, text */ }
-  a[href="/dfmule"]:after {
+  a[href^="/df"][href$="mule"]:after {
     content: "M";
     /* Magma man#, mule#, muskox#, text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "N";
     /* Text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "O";
     /* Trade depot post, glass portal, Tile in Farm Workshop, column$, wall construction, Giant Olm, full moon on travel map, text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "P";
     /* Text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "Q";
     /* Text */ }
-  a[href="/dfgiantrat"]:after {
+  a[href^="/df"][href$="giantrat"]:after {
     content: "R";
     /* Giant Rat#, Text */ }
-  a[href="/dfspider"]:after {
+  a[href^="/df"][href$="spider"]:after {
     content: "S";
     /* Sasquatch#, giant desert scorpion#, Giant Cave Spider#, text */ }
-  a[href="/dftitan"]:after {
+  a[href^="/df"][href$="titan"]:after {
     content: "T";
     /* Titan#, Text */ }
-  a[href="/dfhuman"]:after {
+  a[href^="/df"][href$="human"]:after {
     content: "U";
     /* Human#, Unicorn#, text */ }
-  a[href="/dfbadlands"]:after {
+  a[href^="/df"][href$="badlands"]:after {
     content: "V";
     /* Badlands on map, Text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "W";
     /* Depot Access Display, Text */ }
-  a[href="/dfbin"]:after {
+  a[href^="/df"][href$="bin"]:after {
     content: "X";
     /* Bin, stone floodgate, shop post, building footprint, nausea/winded/stunned/unconscious/migrant indicator, Depot Access Display, text, up/down stairs, Tile in Ashery, keyboard cursor */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "Y";
     /* Text */ }
-  a[href="/dfsleep"]:after {
+  a[href^="/df"][href$="sleep"]:after {
     content: "Z";
     /* Sleep indicator, text */ }
-  a[href="/dfclothes"]:after {
+  a[href^="/df"][href$="clothes"]:after {
     content: "[";
     /* Clothing, armor, item stack opening tag, moon on travel map, text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "\\";
     /* Part of animation when two creatures or dwarves are on the same spot, Ballista tile */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "]";
     /* Floor tile in Workshop|workshops and furnace|furnaces, item stack closing tag, tile in various workshops, text */ }
-  a[href="/dftrap"]:after {
+  a[href^="/df"][href$="trap"]:after {
     content: "^";
     /* Trap, Alabaster, Volcano on world map */ }
-  a[href="/dfchannel"]:after {
+  a[href^="/df"][href$="channel"]:after {
     content: "_";
     /* Channel designation, text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "`";
     /* Rough floors, unexplored underground */
     /* Dolomite, Schist, Alunite, Rutile */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "a";
     /* Antman#, text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "b";
     /* Batman#, text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "c";
     /* Cat#, Crundle#, text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "d";
     /* Dog#, text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "e";
     /* Elf#, Text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "f";
     /* Frogman#, text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "g";
     /* Goblin#, Mountain goat#, Gremlin#, Groundhog#, text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "h";
     /* Harpy#, text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "i";
     /* Fire imp#, text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "j";
     /* Text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "k";
     /* Kobold#, text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "l";
     /* Text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "m";
     /* Mandrill#, vermin|mussel, text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "n";
     /* Hilly Grassland(?) on Map, Text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "o";
     /* Well construction, bridge construction, text, millstone in action, floor tile in magma furnace|furnaces */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "p";
     /* Text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "q";
     /* Text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "r";
     /* Ratman#, text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "s";
     /* Snakeman#, Slugman#, Snailman#, text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "t";
     /* Troglodyte#, text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "u";
     /* Text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "v";
     /* Text */
     /* Anhydrite, Mica */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "w";
     /* Wolf#, text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "x";
     /* Saltpeter, text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "y";
     /* Text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "z";
     /* Text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "&#123;";
     /* Forbidden opening tag, tile in Jewellers Workshop. */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "&#124;";
     /* Talc, pipe sections, Part of animation when two creatures or dwarves are on the same spot */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "&#125;";
     /* Forbidden closing tag */ }
-  a[href="/dfmagma"]:after, a[href="/dfriver"]:after, a[href="/dfflow"]:after, a[href="/dfdirtroad"]:after, a[href="/dffarmconstruction"]:after, a[href="/dffurrowed"]:after, a[href="/dfsand"]:after, a[href="/dfbloodsmear"]:after, a[href="/dfguts"]:after {
+  a[href^="/df"][href$="magma"]:after, a[href^="/df"][href$="river"]:after, a[href^="/df"][href$="flow"]:after, a[href^="/df"][href$="dirtroad"]:after, a[href^="/df"][href$="farmconstruction"]:after, a[href^="/df"][href$="furrowed"]:after, a[href^="/df"][href$="sand"]:after, a[href^="/df"][href$="bloodsmear"]:after, a[href^="/df"][href$="guts"]:after {
     content: "~";
     /* Unfinished rough stone road, river, magma, flows, dirt road, farm plot under construction, sand, furrowed soils, blood smear, guts */ }
-  a[href="/dftrap"]:after {
+  a[href^="/df"][href$="trap"]:after {
     content: "⌂";
     /* Animal trap, low mountains on world map, part of mechanic's workshop */ }
-  a[href="/dfmechanism"]:after {
+  a[href^="/df"][href$="mechanism"]:after {
     content: "Ç";
     /* Mechanisms */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "ü";
     /* Text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "é";
     /* Text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "â";
     /* Text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "ä";
     /* Text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "à";
     /* Text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "å";
     /* Text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "ç";
     /* Totems */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "ê";
     /* Text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "ë";
     /* Text, military elves */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "è";
     /* Text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "ï";
     /* Text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "î";
     /* Elven forest retreat */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "ì";
     /* */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "Ä";
     /* */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "Å";
     /* Idols, shrines on travel map, text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "É";
     /* */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "æ";
     /* Toys, hamlets on world map */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "Æ";
     /* Coffers, quivers, backpacks, hamlets on world map */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "ô";
     /* Cauldrons */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "ö";
     /* Rings */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "ò";
     /* Unactivated levers, Stingrays#, text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "û";
     /* Bucket, text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "ù";
     /* */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "ÿ";
     /* Valley herb */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "Ö";
     /* Bracelets */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "Ü";
     /* Military Humans */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "¢";
     /* Closed hatches */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "£";
     /* Many valuable metals in veins, Other Features in Local embark map screen (when display is enabled) */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "¥";
     /* Cave lobster */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "₧";
     /* */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "ƒ";
     /* Rope reed, splints */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "á";
     /* */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "í";
     /* */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "ó";
     /* Activated levers, text */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "ú";
     /* */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "ñ";
     /* Bogeymen */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "Ñ";
     /* Night Creatures */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "ª";
     /* */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "º";
     /* Cloth */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "¿";
     /* Instrument */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "⌐";
     /* Withered plants */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "¬";
     /* */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "½";
     /* */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "¼";
     /* */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "¡";
     /* Flask, waterskin */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "«";
     /* Tail of Ballista arrow facing west, item with decoration tag */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "»";
     /* Tail of Ballista arrow facing east, item with decoration tag */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "░";
     /* Partially dug rock, miasma, cave-in dust, steam, smoke, Fishery & Butcher's workshops, fog on travel map, Jet, Chalk, Diorite, various soils */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "▒";
     /* Partially dug rock, miasma, cave-in dust, steam, smoke, side tiles for catapult, window, fog on travel map */
     /* Gabbro, Obsidian, various soils */
     /* Workshops (craftdwarf's, bowyer's, mason's, mechanic's, jeweler's, clothier's, kitchen, and leather works) */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "▓";
     /* Partially dug rock, miasma, cave-in dust, steam, smoke, tannery, Wagon body, fog on travel map, Marble, Limestone, Flint, Granite, various soils, sky$ */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "│";
     /* Tunnel tube trees, Overworld rivers, well Restraint|chain/rope, rotating axles */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "┤";
     /* Overworld rivers, top-right tile for Loom, glumprong tree */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "╡";
     /* Blood thorn trees, bridges, catapult tile */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "╢";
     /* */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "╖";
     /* Ends of smooth walls */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "╕";
     /* Ends of smooth walls */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "╣";
     /* Smooth/constructed walls */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "║";
     /* Smooth/constructed walls, bridges, wooden doors, center catapult tile, center Ballista tile, axles, fortress walls on travel map */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "╗";
     /* Smooth/constructed walls, bridges */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "╝";
     /* Smooth/constructed walls, bridges */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "╜";
     /* Ends of smooth walls */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "╛";
     /* Ends of smooth walls */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "┐";
     /* Overworld rivers */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "└";
     /* Overworld rivers/Roads */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "┴";
     /* Overworld rivers/Roads */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "┬";
     /* Overworld rivers/Roads, crutches */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "├";
     /* Overworld rivers/Roads, top-left tile for Loom */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "─";
     /* Overworld rivers/Roads, rotating axles */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "┼";
     /* Doors, overworld rivers/Roads, floor Stone_detailing|detailing/engraving in progress */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "╞";
     /* Bridges, trees in winter, (un)dead trees, catapult tile */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "╟";
     /* */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "╚";
     /* Smooth/constructed walls, bridges, fortress walls on travel map */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "╔";
     /* Smooth/constructed walls, bridges, fortress walls on travel map */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "╩";
     /* Smooth/constructed walls */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "╦";
     /* Smooth/constructed walls, fortress walls on travel map */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "╠";
     /* Smooth/constructed walls */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "═";
     /* Smooth/constructed walls, bridges, planted crops, center catapult tile, center Ballista tile, axles, fortress walls on travel map */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "╬";
     /* Smooth/constructed walls, bridges, fortifications, (flashing) wall Stone_detailing|detailing/engraving/fortifying in progress */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "╧";
     /* Tail of Ballista arrow facing north */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "╨";
     /* Bridges, catapult tile */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "╤";
     /* Table, tail of Ballista arrow facing south */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "╥";
     /* Chairs, bridges, catapult tile, farmer's workshop bottom-middle tile */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "╙";
     /* Ends of smooth walls */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "╘";
     /* Ends of smooth walls */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "╒";
     /* Ends of smooth walls */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "╓";
     /* Ends of smooth walls */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "╫";
     /* Wooden floodgates, bone floodgates, wall grates */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "╪";
     /* Metal doors */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "┘";
     /* Overworld rivers */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "┌";
     /* Overworld rivers */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "█";
     /* Any solid color tile */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "▄";
     /* Siege engine parts, Ballista tile */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "▌";
     /* Ballista tile */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "▐";
     /* Ballista tile */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "▀";
     /* Ballista tile */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "α";
     /* Fish, top-center fishery tile, meat, altocumulus clouds on travel map */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "ß";
     /* Leather, cumulus clouds on travel map */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "Γ";
     /* Weight symbol, candlenut tree, mango tree, rubber tree, cacao tree, palm tree, kapok tree */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "π";
     /* Cabinet, goblin|dark fortresses */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "Σ";
     /* Trap component */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "σ";
     /* Anvil, metalsmith's and magma forge bottom-middle tile */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "µ";
     /* crown, ruins on world map */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "τ";
     /* Tree sapling, pig tail, cave wheat, longland grass, rat weed, hide root, muck root, blade weed, sliver barb */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "Φ";
     /* sweet pod, bloated tuber, kobold bulb, traction benches */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "Θ";
     /* Beds, Puddingstone */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "Ω";
     /* Statues, dwarven cities on map, fish|sea nettle jellyfish */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "δ";
     /* Earrings, kennel tile */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "∞";
     /* Boulder, dry brook, middle-right butcher's shop tile, Andesite, Conglomerate, sea foam, images of clouds, fortress gates on travel map */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "φ";
     /* Thread, loom bottom left tile, farmer's workshop bottom right tile */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "ε";
     /* Bowyer's workshop middle-right tile */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "∩";
     /* Hills on world map */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "≡";
     /* metal|Bars, excellent quality symbol, zones, metal/glass floodgates, floor bars, cirrus clouds on travel map, hamlets on world map */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "±";
     /* Unfinished road */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "≥";
     /* Debris (spent ammo, ballista bolts, and catapult stones), fire#Origins|ashes */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "≤";
     /* Debris (spent ammo, ballista bolts, and catapult stones), fire#Origins|ashes */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "⌠";
     /* Willow tree, swamps on world map */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "⌡";
     /* */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "÷";
     /* Barrel, screw pump, upper left tile of still (works well as barrel) */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "≈";
     /* Rough stone road or bridge, water, river, lava, glob, fat, tallow, farm plot, furrowed soil, vomit, blood pools, sea foam, sand, Mudstone, Serpentine, others? */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "°";
     /* Sea foam */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "∙";
     /* Vermin, Boulders at lower elevation. */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "·";
     /* Seeds, micro-vermin, Open Space$ (changeable with the SKY and CHASM tags in d_init.txt), terrain at lower elevation, plants at lower elevation. */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "√";
     /* Weapon racks, badlands in main map, check mark (selecting production materials, confirmed items on manager window) */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "ⁿ";
     /* Savanna in main map */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "²";
     /* Body parts, chunks, vermin corpses, bone, shell, skins, skulls */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "■";
     /* Blocks, trees at lower elevation, human houses/shops on travel map */ }
-  a[href="/spritelink"]:after {
+  a[href^="/df"][href="/spritelink"]:after {
     content: "&nbsp;";
     /* No use? */ }
